@@ -1,4 +1,4 @@
-import { getTop, getPopular } from './services.js';
+import { getTop, getPopular, getTriends } from './services.js';
 import renderCard from './renderCard.js';
 
 const title = document.querySelector('.other-films__title');
